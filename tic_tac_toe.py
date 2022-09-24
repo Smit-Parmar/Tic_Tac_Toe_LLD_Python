@@ -109,7 +109,7 @@ class Game(Grid):
 
 if __name__ =="__main__":
     player1=Player(input("Please enter player1 name: "))
-    player2=Player(input("Please enter player1 name: "))
+    player2=Player(input("Please enter player2 name: "))
     newgame=Game(player1,player2)
     newgame.showGrid()
     newgame.startGame()
